@@ -1,0 +1,69 @@
+* {
+    margin: 0%;
+    padding: 0;
+    background-color: #282D35;
+
+
+}
+
+#logo {
+    width: 35px;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #21222A;
+    color: #61DAFB;
+    height: 91px;
+    padding-left: 26px;
+    padding-block: 30px;
+    border-radius: 6px;
+    gap: 5px;
+    font-family: "Inter";
+}
+
+.nav-text {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.body {
+    background-color: #282D35;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px 25px;
+
+}
+
+.h1 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 45px;
+    padding-block: 40px;
+}
+
+.list {
+    padding-left: 70px;
+    font-size: 19px;
+    color: #FFFFFF;
+
+}
+
+.list>li {
+    margin-block: 10px;
+}
+
+.list>li::marker {
+    color: #61DAFB;
+    font-size: 1.5rem;
+}
+
+main {
+    background-image: url("\src\assets\react-logo-half.png");
+    background-repeat: no-repeat;
+    background-position: right 75%;
+}
